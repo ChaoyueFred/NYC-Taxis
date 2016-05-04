@@ -17,6 +17,7 @@
 </Schema>
 <Folder><name>tl_2010_36061_tract10</name>
   <Placemark>
+  	<name>36061027100</name>
 	<Style><LineStyle><color>7f00ffff</color><width>1</width></LineStyle><PolyStyle><color>7f00ff00</color></PolyStyle></Style>
 	<ExtendedData><SchemaData schemaUrl="#tl_2010_36061_tract10">
 		<SimpleData name="STATEFP10">36</SimpleData>
@@ -32,6 +33,7 @@
 		<SimpleData name="INTPTLAT10">+40.8519392</SimpleData>
 		<SimpleData name="INTPTLON10">-073.9342905</SimpleData>
 	</SchemaData></ExtendedData>
+	<visibility>0</visibility>
       <Polygon><outerBoundaryIs><LinearRing><coordinates>-73.936661,40.850448 -73.936342,40.851086 -73.935716,40.852339 -73.936498,40.852592 -73.936355,40.853821 -73.936038,40.854915 -73.934627,40.854501 -73.933705,40.854169 -73.932228,40.853582 -73.930996,40.853062 -73.931495,40.85238 -73.931995,40.851696 -73.932433,40.851095 -73.932861,40.850506 -73.93331,40.849895 -73.933731,40.849321 -73.934239,40.848626 -73.935471,40.849145 -73.936397,40.849541 -73.935754,40.850168 -73.936661,40.850448</coordinates></LinearRing></outerBoundaryIs></Polygon>
   </Placemark>
   <Placemark>
