@@ -17,7 +17,7 @@
 </Schema>
 <Folder><name>tl_2010_36061_tract10</name>
   <Placemark>
-	<Style><LineStyle><color>7f00ffff</color><width>2</width></LineStyle><PolyStyle><fill><color>7f00ff00</color></fill></PolyStyle></Style>
+	<Style><LineStyle><color>7f00ffff</color><width>2</width></LineStyle><PolyStyle><color>7f00ff00</color></PolyStyle></Style>
 	<ExtendedData><SchemaData schemaUrl="#tl_2010_36061_tract10">
 		<SimpleData name="STATEFP10">36</SimpleData>
 		<SimpleData name="COUNTYFP10">061</SimpleData>
