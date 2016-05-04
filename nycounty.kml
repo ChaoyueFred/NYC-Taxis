@@ -19,7 +19,7 @@
   <Placemark>
   	<name>36061027100</name>
   	<visibility>0</visibility>
-	<Style><LineStyle><width>1.5</width><color>7f00ffff</color></LineStyle><PolyStyle><color>7f00ffff</color></PolyStyle></Style>
+	<Style><LineStyle><width>1.5</width><color>7f00ffff</color></LineStyle><PolyStyle><color>5014F064</color></PolyStyle></Style>
 	<ExtendedData><SchemaData schemaUrl="#tl_2010_36061_tract10">
 		<SimpleData name="STATEFP10">36</SimpleData>
 		<SimpleData name="COUNTYFP10">061</SimpleData>
