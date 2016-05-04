@@ -17,7 +17,10 @@
 </Schema>
 <Folder><name>tl_2010_36061_tract10</name>
   <Placemark>
-	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+  	<name>36061027100</name>
+  	<visibility>0</visibility>
+	<Style><LineStyle><width>1</width><color>5014F064</color></LineStyle><PolyStyle><color>5014F064</color></PolyStyle></Style>
+	<Polygon><outerBoundaryIs><LinearRing><coordinates>-73.936661,40.850448 -73.936342,40.851086 -73.935716,40.852339 -73.936498,40.852592 -73.936355,40.853821 -73.936038,40.854915 -73.934627,40.854501 -73.933705,40.854169 -73.932228,40.853582 -73.930996,40.853062 -73.931495,40.85238 -73.931995,40.851696 -73.932433,40.851095 -73.932861,40.850506 -73.93331,40.849895 -73.933731,40.849321 -73.934239,40.848626 -73.935471,40.849145 -73.936397,40.849541 -73.935754,40.850168 -73.936661,40.850448</coordinates></LinearRing></outerBoundaryIs></Polygon>
 	<ExtendedData><SchemaData schemaUrl="#tl_2010_36061_tract10">
 		<SimpleData name="STATEFP10">36</SimpleData>
 		<SimpleData name="COUNTYFP10">061</SimpleData>
@@ -32,10 +35,10 @@
 		<SimpleData name="INTPTLAT10">+40.8519392</SimpleData>
 		<SimpleData name="INTPTLON10">-073.9342905</SimpleData>
 	</SchemaData></ExtendedData>
-      <Polygon><outerBoundaryIs><LinearRing><coordinates>-73.936661,40.850448 -73.936342,40.851086 -73.935716,40.852339 -73.936498,40.852592 -73.936355,40.853821 -73.936038,40.854915 -73.934627,40.854501 -73.933705,40.854169 -73.932228,40.853582 -73.930996,40.853062 -73.931495,40.85238 -73.931995,40.851696 -73.932433,40.851095 -73.932861,40.850506 -73.93331,40.849895 -73.933731,40.849321 -73.934239,40.848626 -73.935471,40.849145 -73.936397,40.849541 -73.935754,40.850168 -73.936661,40.850448</coordinates></LinearRing></outerBoundaryIs></Polygon>
   </Placemark>
   <Placemark>
-	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+  	<name>36061012900</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><color>ff0000ff</color></PolyStyle></Style>
 	<ExtendedData><SchemaData schemaUrl="#tl_2010_36061_tract10">
 		<SimpleData name="STATEFP10">36</SimpleData>
 		<SimpleData name="COUNTYFP10">061</SimpleData>
@@ -50,7 +53,7 @@
 		<SimpleData name="INTPTLAT10">+40.7650139</SimpleData>
 		<SimpleData name="INTPTLON10">-073.9998117</SimpleData>
 	</SchemaData></ExtendedData>
-      <Polygon><outerBoundaryIs><LinearRing><coordinates>-74.00827,40.764847 -74.005854,40.768148 -74.005083,40.769201 -74.004328,40.77024 -74.004235,40.770197 -74.000801,40.768738 -74.000187,40.768477 -74.00018,40.768493 -73.996933,40.767139 -73.996493,40.766685 -73.994631,40.765881 -73.992345,40.764919 -73.991788,40.764684 -73.992244,40.764057 -73.992701,40.763431 -73.993156,40.762806 -73.993609,40.762184 -73.99407,40.761552 -73.994526,40.760927 -73.994983,40.7603 -73.995474,40.759627 -73.996232,40.759946 -73.998315,40.760823 -74.001163,40.762021 -74.001716,40.762208 -74.004683,40.763432 -74.008212,40.764823 -74.00827,40.764847</coordinates></LinearRing></outerBoundaryIs></Polygon>
+      <Polygon><extrude>1</extrude><outerBoundaryIs><LinearRing><coordinates>-74.00827,40.764847 -74.005854,40.768148 -74.005083,40.769201 -74.004328,40.77024 -74.004235,40.770197 -74.000801,40.768738 -74.000187,40.768477 -74.00018,40.768493 -73.996933,40.767139 -73.996493,40.766685 -73.994631,40.765881 -73.992345,40.764919 -73.991788,40.764684 -73.992244,40.764057 -73.992701,40.763431 -73.993156,40.762806 -73.993609,40.762184 -73.99407,40.761552 -73.994526,40.760927 -73.994983,40.7603 -73.995474,40.759627 -73.996232,40.759946 -73.998315,40.760823 -74.001163,40.762021 -74.001716,40.762208 -74.004683,40.763432 -74.008212,40.764823 -74.00827,40.764847</coordinates></LinearRing></outerBoundaryIs></Polygon>
   </Placemark>
   <Placemark>
 	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
