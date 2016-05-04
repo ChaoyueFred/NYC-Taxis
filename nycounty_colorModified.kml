@@ -15,10 +15,14 @@
 	<SimpleField name="INTPTLAT10" type="string"></SimpleField>
 	<SimpleField name="INTPTLON10" type="string"></SimpleField>
 </Schema>
+<Style id = "1"><LineStyle><color>461400F0</color></LineStyle><PolyStyle><color>461400F0</color></PolyStyle></Style>
+<Style id = "2"><LineStyle><color>462E1CF1</color></LineStyle><PolyStyle><color>462E1CF1</color></PolyStyle></Style>
+<Style id = "3"><LineStyle><color>465042F3</color></LineStyle><PolyStyle><color>465042F3</color></PolyStyle></Style>
+
 <Folder><name>tl_2010_36061_tract10</name>
   <Placemark>
   <name>36061027100</name><description><![CDATA[<h2>Population</h2><p><i>8866</i></p>]]></description>
-  <Style><LineStyle><color>461400F0</color></LineStyle><PolyStyle><color>461400F0</color></PolyStyle></Style>
+  <styleUrl>#1</styleUrl>
 	<ExtendedData><SchemaData schemaUrl="#tl_2010_36061_tract10">
 		<SimpleData name="STATEFP10">36</SimpleData>
 		<SimpleData name="COUNTYFP10">061</SimpleData>
@@ -37,7 +41,7 @@
   </Placemark>
   <Placemark>
   <name>36061012900</name><description><![CDATA[<h2>Population</h2><p><i>5101</i></p>]]></description>
-  <Style><LineStyle><color>462E1CF1</color></LineStyle><PolyStyle><color>462E1CF1</color></PolyStyle></Style>
+  <styleUrl>#2</styleUrl>
 	<ExtendedData><SchemaData schemaUrl="#tl_2010_36061_tract10">
 		<SimpleData name="STATEFP10">36</SimpleData>
 		<SimpleData name="COUNTYFP10">061</SimpleData>
@@ -56,7 +60,7 @@
   </Placemark>
   <Placemark>
   <name>36061014401</name><description><![CDATA[<h2>Population</h2><p><i>5177</i></p>]]></description>
-  <Style><LineStyle><color>465042F3</color></LineStyle><PolyStyle><color>465042F3</color></PolyStyle></Style>
+	<styleUrl>#3</styleUrl>
 	<ExtendedData><SchemaData schemaUrl="#tl_2010_36061_tract10">
 		<SimpleData name="STATEFP10">36</SimpleData>
 		<SimpleData name="COUNTYFP10">061</SimpleData>
@@ -75,8 +79,8 @@
   </Placemark>
   <Placemark>
   <name>36061009900</name><description><![CDATA[<h2>Population</h2><p><i>1686</i></p>]]></description>
-  <Style><LineStyle><color>467367F6</color></LineStyle><PolyStyle><color>467367F6</color></PolyStyle></Style>
-	<ExtendedData><SchemaData schemaUrl="#tl_2010_36061_tract10">
+	<styleUrl>#3</styleUrl>
+		<ExtendedData><SchemaData schemaUrl="#tl_2010_36061_tract10">
 		<SimpleData name="STATEFP10">36</SimpleData>
 		<SimpleData name="COUNTYFP10">061</SimpleData>
 		<SimpleData name="TRACTCE10">009900</SimpleData>
@@ -94,7 +98,7 @@
   </Placemark>
   <Placemark>
   <name>36061014601</name><description><![CDATA[<h2>Population</h2><p><i>3643</i></p>]]></description>
-  <Style><LineStyle><color>46857AF7</color></LineStyle><PolyStyle><color>46857AF7</color></PolyStyle></Style>
+  <styleUrl>#2</styleUrl>
 	<ExtendedData><SchemaData schemaUrl="#tl_2010_36061_tract10">
 		<SimpleData name="STATEFP10">36</SimpleData>
 		<SimpleData name="COUNTYFP10">061</SimpleData>
@@ -132,7 +136,7 @@
   </Placemark>
   <Placemark>
   <name>36061015801</name><description><![CDATA[<h2>Population</h2><p><i>5759</i></p>]]></description>
-  <Style><LineStyle><color>46B0AAFA</color></LineStyle><PolyStyle><color>46B0AAFA</color></PolyStyle></Style>
+  <styleUrl>#3</styleUrl>
 	<ExtendedData><SchemaData schemaUrl="#tl_2010_36061_tract10">
 		<SimpleData name="STATEFP10">36</SimpleData>
 		<SimpleData name="COUNTYFP10">061</SimpleData>
@@ -151,8 +155,8 @@
   </Placemark>
   <Placemark>
   <name>36061015601</name><description><![CDATA[<h2>Population</h2><p><i>5461</i></p>]]></description>
-  <Style><LineStyle><color>46C2BCFB</color></LineStyle><PolyStyle><color>46C2BCFB</color></PolyStyle></Style>
-	<ExtendedData><SchemaData schemaUrl="#tl_2010_36061_tract10">
+	<styleUrl>#2</styleUrl>
+		<ExtendedData><SchemaData schemaUrl="#tl_2010_36061_tract10">
 		<SimpleData name="STATEFP10">36</SimpleData>
 		<SimpleData name="COUNTYFP10">061</SimpleData>
 		<SimpleData name="TRACTCE10">015601</SimpleData>
