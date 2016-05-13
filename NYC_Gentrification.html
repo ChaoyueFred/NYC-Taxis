@@ -1,0 +1,82 @@
+<html>
+<head>
+<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?callback=initialize&language=usa"></script>
+<script type="text/javascript">
+var layers=[];
+
+layers[0] = new  google.maps.KmlLayer('https://raw.githubusercontent.com/smartyining/NYC-Taxis/master/nycounty_constructionIncModified.kml',
+{preserveViewport: true});
+
+layers[1] = new google.maps.KmlLayer('https://raw.githubusercontent.com/smartyining/NYC-Taxis/master/nycounty_povertyModified.kml',
+{preserveViewport: true});
+
+layers[2] = new google.maps.KmlLayer('https://raw.githubusercontent.com/smartyining/NYC-Taxis/master/nycounty_unemploymentModified.kml',
+{preserveViewport: true});
+
+layers[3] = new google.maps.KmlLayer('https://raw.githubusercontent.com/smartyining/NYC-Taxis/master/nycounty_popIncModified.kml',
+{preserveViewport: true});
+
+layers[4] = new google.maps.KmlLayer('https://raw.githubusercontent.com/smartyining/NYC-Taxis/master/nycounty_rentIncModified.kml',
+{preserveViewport: true});
+
+layers[5] = new google.maps.KmlLayer('https://raw.githubusercontent.com/smartyining/NYC-Taxis/master/nycounty_taxiIncModified.kml',
+{preserveViewport: true});
+
+
+
+var map,map2;
+
+function initialize() {
+    var latlng = new google.maps.LatLng(40.7295, -73.9965);
+    var myOptions = {
+            zoom: 12,
+            center: latlng,
+            mapTypeIds: google.maps.MapTypeId.ROADMAP
+    }
+    map = new google.maps.Map(document.getElementById("map_canvas"),myOptions);
+    map2 = new google.maps.Map(document.getElementById("map_canvas2"),myOptions);
+    var ctaLayer = new google.maps.KmlLayer({
+      url: 'https://raw.githubusercontent.com/smartyining/NYC-Taxis/master/nycounty_taxiIncModified.kml',
+      map: map2
+    });
+}
+
+function toggleLayers(i)
+{
+
+  if(layers[i].getMap()==null) {
+     layers[i].setMap(map);
+  }
+  else {
+     layers[i].setMap(null);
+  }
+  //document.getElementById('status').innerHTML += "toggleLayers("+i+") [setMap("+layers[i].getMap()+"] returns status: "+layers[i].getStatus()+"<br>";
+}
+
+
+</script>
+</head>
+<h2>Big Data Group Project: Gentrification Detection</h2>
+<p>The left map displays the analyzed results of the data found on US Census official website.<br>
+  The right map displays the analyzed results of the taxi data.<br>
+  The data difference is tell by the opacity of the color, darker means higher.<br>
+  Use the check boxes below to choose which data you want to show on the left map. Click on the colored blocks to see detailed data.</p>
+<body onload="initialize()" style="background-color:lightgrey;">
+Construction <input type="checkbox" id="layer_01" onclick="toggleLayers(0);"/>
+Poverty <input type="checkbox" id="layer_02" onclick="toggleLayers(1);"/>
+Unemployment <input type="checkbox" id="layer_03" onclick="toggleLayers(2);"/>
+PopInc <input type="checkbox" id="layer_04" onclick="toggleLayers(3);"/>
+RentInc <input type="checkbox" id="layer_05" onclick="toggleLayers(4);"/>
+Taxi <input type="checkbox" id="layer_06" onclick="toggleLayers(5);"/>
+<div>
+<pre>Census data map:                                                                 Taxi data map:</pre>
+<div id="map_canvas" style="float:left;height:500px; width:600px;"></div>
+<div id="status"></div>
+<div id="occupied" style="float:left;height:10px; width:30px;"></div>
+<div id="map_canvas2" style="float:left;height:500px; width:600px;"></div>
+<div id="status"></div>
+<div style="clear:both"></div>
+</div>
+</body>
+
+</html>
